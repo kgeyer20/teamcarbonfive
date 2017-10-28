@@ -1,0 +1,88 @@
+h*{
+    border: 2px solid
+}
+
+#img {
+    width: 20%;
+    margin: auto;
+    display: block
+}
+
+#bg {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+#titlediv {
+    width: 40%;
+    margin: auto;
+}
+
+#title {
+    font-family: Helvetica, "Ropa Sans";
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+#pg {
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    padding: 20px;
+}
+#pgdiv {
+    background-color: #279BF7;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+#lb {
+    list-style-type: none;
+    padding: 0;
+    width: 25%;
+    float: left;
+    margin-left: 20%;
+    
+}
+
+#rb {
+    list-style-type: none;
+    padding: 0;
+    width: 25%;
+    float: right;
+    margin-right: 20%
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.o {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: helvetica, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+.o:active{
+    top: 3px;
+}
+button:hover {
+    background-color: orange;
+    transition: 0.3s;
+}
+
+
+#sponsors {
+    height: 200px;
+    margin-top: 350px;
+    background-color: rgba(0, 0, 0, 0.2)
+}
